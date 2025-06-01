@@ -35,6 +35,8 @@ nano /etc/default/grub
 # Комментируем строку, скрывающую меню и ставим задержку для выбора пункта меню в 10 секунд
 # GRUB_TIMEOUT_STYLE=hidden
 GRUB_TIMEOUT=10
+# Обновить grub
+update-grub
 ```
 
 ---
