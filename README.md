@@ -1,6 +1,6 @@
-Урок: otus_GRUB  
-Автор: Kamil Ibragimov   
-Дата: 01.06.2025   
+![Lesson](https://img.shields.io/badge/Lesson-otus__GRUB-blue)
+![Author](https://img.shields.io/badge/Author-Kamil%20Ibragimov-green)
+![Date](https://img.shields.io/badge/Date-01.06.2025-yellow)
 
 ## Домашнее задание "Работа с загрузчиком"   
 ### 🎯 Цель:   
