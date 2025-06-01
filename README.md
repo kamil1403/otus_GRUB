@@ -13,9 +13,9 @@
 • Установить систему с LVM, после чего переименовать VG.   
 
 ### ✅ Результат:   
-• Запустил две виртуальные машины (Server 192.168.1.99 и Client 192.168.1.100), настроил между ними связь через NFS. Шаги описал в [🗄️ Server](#nfs_ser) и [🖥️ Client](#nfs_cl)    
-• Создал скрипт для конфигурирования NFS на сервере. Результат см. на скриншоте 🖼️ ["serv1"](https://github.com/kamil1403/otus_NFS/blob/main/screenshots/Server_NFS_bash_1.png) и 🖼️ ["serv2"](https://github.com/kamil1403/otus_NFS/blob/main/screenshots/Server_NFS_bash_2.png)   
-• Создал скрипт для конфигурирования NFS на клиенте. Результат см. на скриншоте 🖼️ ["client1"](https://github.com/kamil1403/otus_NFS/blob/main/screenshots/Clietn_NFS_bash_1.png) и 🖼️ ["client2"](https://github.com/kamil1403/otus_NFS/blob/main/screenshots/Clietn_NFS_bash_2.png)  
+- [x] Включил отображение меню Grub. Результат см. на скриншоте 🖼️ ["serv1"](https://github.com/kamil1403/otus_NFS/blob/main/screenshots/Server_NFS_bash_1.png)   
+- [x] Попал в систему без пароля. Результат см. на скриншоте 🖼️ ["serv1"](https://github.com/kamil1403/otus_NFS/blob/main/screenshots/Server_NFS_bash_1.png)   
+- [x] Установил систему с LVM, после через переименовал VG. Результат см. на скриншоте 🖼️ ["client1"](https://github.com/kamil1403/otus_NFS/blob/main/screenshots/Clietn_NFS_bash_1.png)   
 
 
 ## 🧭 Оглавление
