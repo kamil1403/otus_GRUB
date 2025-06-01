@@ -13,7 +13,7 @@
 • Установить систему с LVM, после чего переименовать VG.   
 
 ### ✅ Результат:   
-- [x] Включил отображение меню Grub. Результат см. на скриншоте 🖼️ ["serv1"](https://github.com/kamil1403/otus_NFS/blob/main/screenshots/Server_NFS_bash_1.png)   
+- [x] Включил отображение меню Grub. Результат см. на скриншоте 🖼️ ["grub_1"](https://github.com/kamil1403/otus_GRUB/blob/main/screenshots/grub_menu_1.png) и 🖼️ ["grub_2"](https://github.com/kamil1403/otus_GRUB/blob/main/screenshots/grub_menu_2.png)      
 - [x] Попал в систему без пароля. Результат см. на скриншоте 🖼️ ["serv1"](https://github.com/kamil1403/otus_NFS/blob/main/screenshots/Server_NFS_bash_1.png)   
 - [x] Установил систему с LVM, после через переименовал VG. Результат см. на скриншоте 🖼️ ["client1"](https://github.com/kamil1403/otus_NFS/blob/main/screenshots/Clietn_NFS_bash_1.png)   
 
