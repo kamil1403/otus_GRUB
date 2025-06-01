@@ -15,7 +15,7 @@
 ### ✅ Результат:   
 - [x] Включил отображение меню Grub. Результат см. на скриншоте 🖼️ ["grub_1"](https://github.com/kamil1403/otus_GRUB/blob/main/screenshots/grub_menu_1.png) и 🖼️ ["grub_2"](https://github.com/kamil1403/otus_GRUB/blob/main/screenshots/grub_menu_2.png)      
 - [x] Попал в систему без пароля. Результат см. на скриншоте 🖼️ ["init"](https://github.com/kamil1403/otus_GRUB/blob/main/screenshots/init.png) и 🖼️ ["recovery"](https://github.com/kamil1403/otus_GRUB/blob/main/screenshots/recovery.png)   
-- [x] Установил систему с LVM, после через переименовал VG. Результат см. на скриншоте 🖼️ ["client1"](https://github.com/kamil1403/otus_NFS/blob/main/screenshots/Clietn_NFS_bash_1.png)   
+- [x] Установил систему с LVM, после через переименовал VG. Результат см. на скриншоте 🖼️ ["lvm_1"](https://github.com/kamil1403/otus_NFS/blob/main/screenshots/Clietn_NFS_bash_1.png) и 🖼️ ["lvm_2"](https://github.com/kamil1403/otus_GRUB/blob/main/screenshots/recovery.png)    
 
 
 ## 🧭 Оглавление
@@ -77,24 +77,13 @@ reboot -f
 ```bash
 # Создать новую виртуальную машину, в настройках системы выбрать опцию "Включить EFI"
 # Запускаем устанвоку системы
-# На этапе настройки дисков выбрать установку с LVM. См. скриншот 🖼️ ["LVM"](https://github.com/kamil1403/otus_GRUB/blob/main/screenshots/recovery.png) 
-sudo apt install -y nfs-kernel-server
-# Создает каталог
-mkdir -p /srv/share/upload
-# Меняет владельца и группу для папки
-chown -R nobody:nogroup /srv/share
-# Открывает полные права
-chmod 0777 /srv/share/upload
-# Открывает доступ к папке /srv/share для клиента 192.168.1.100
-echo "/srv/share 192.168.1.100/32(rw,sync,root_squash)" >> /etc/exports
-# Применяет экспорт
-exportfs -ra
-# Проверяет, что каталог расшаривается 
-sudo exportfs -s
-# Переходит в каталог
-cd /srv/share/upload
-# Создает пустой файл в папке
-touch check_file_server
+# На этапе настройки дисков выбрать установку с LVM. См. скриншот 🖼️ LVM
+# Переименовываем LVM
+vgrename ubuntu-vg ubuntu-otus
+# Правим файл grub.cfg
+nano /boot/grub/grub.cfg
+# Заменяем в файле название LVM c ubuntu--vg на ubuntu--otus (поиск через "Ctrl + W")
+ubuntu--vg ubuntu--otus
 ```
 
 ---
