@@ -15,7 +15,7 @@
 ### ✅ Результат:   
 - [x] Включил отображение меню Grub. Результат см. на скриншоте 🖼️ ["grub_1"](https://github.com/kamil1403/otus_GRUB/blob/main/screenshots/grub_menu_1.png) и 🖼️ ["grub_2"](https://github.com/kamil1403/otus_GRUB/blob/main/screenshots/grub_menu_2.png)      
 - [x] Попал в систему без пароля. Результат см. на скриншоте 🖼️ ["init"](https://github.com/kamil1403/otus_GRUB/blob/main/screenshots/init.png) и 🖼️ ["recovery"](https://github.com/kamil1403/otus_GRUB/blob/main/screenshots/recovery.png)   
-- [x] Установил систему с LVM, после через переименовал VG. Результат см. на скриншоте 🖼️ ["lvm_1"](https://github.com/kamil1403/otus_NFS/blob/main/screenshots/Clietn_NFS_bash_1.png) и 🖼️ ["lvm_2"](https://github.com/kamil1403/otus_GRUB/blob/main/screenshots/recovery.png)    
+- [x] Установил систему с LVM, после через переименовал VG. Результат см. на скриншоте 🖼️ ["lvm_1"](https://github.com/kamil1403/otus_GRUB/blob/main/screenshots/lvm_1.png) и 🖼️ ["lvm_2"](https://github.com/kamil1403/otus_GRUB/blob/main/screenshots/lvm_2.png)    
 
 
 ## 🧭 Оглавление
